@@ -48,7 +48,7 @@ body{
   width: 80%;
   background: #C2C2C2;
   border-radius: 7px;
-  border-left: 3px solid black;
+  border-left: 4px solid black;
   color: black;
   font-size: 10px;
   text-align: left;
@@ -64,7 +64,7 @@ body{
 
 .results .audio{
   width: 90%;
-  height: 60px;
+  height: 45px;
   background-color: #AEAEAE;
   margin-bottom: 20px;
   text-align: left;
@@ -77,8 +77,9 @@ body{
   margin-right: 10px;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   position: relative;
-  bottom: 20px;
+  bottom: 30px;
 }
 
 .results .audio .btn-wrapper button {
@@ -97,4 +98,12 @@ body{
 
 .results .audio .type{
   font-size: 10px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.remove-event{
+  pointer-events: none;
 }
