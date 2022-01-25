@@ -82,7 +82,7 @@ body{
   bottom: 30px;
 }
 
-.results .audio .btn-wrapper button {
+.results .audio .btn-wrapper .enableAudio {
   width: 30px;
   height: 30px;
   border: none;
@@ -102,8 +102,4 @@ body{
 
 .bold{
   font-weight: bold;
-}
-
-.remove-event{
-  pointer-events: none;
 }
